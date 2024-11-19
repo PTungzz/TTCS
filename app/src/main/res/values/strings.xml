@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vocubulary Builder</string>
+    <item name="searchEditText" type="id" />
+    <item name="searchButton" type="id" />
+    <item name="wordTextView" type="id" />
+    <item name="definitionTextView" type="id" />
+    <item name="exampleTextView" type="id" />
+    <item name="nav_statistics" type="id" />
+    <item name="nav_quiz" type="id" />
+    <item name="nav_vocabulary" type="id" />
+    <item name="partOfSpeechTextView" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="selected_date_textview" type="id" />
+    <item name="calendarView" type="id" />
+    <item name="event_name" type="id" />
+    <item name="favorite_icon" type="id" />
+    <item name="delete_icon" type="id" />
+    <item name="event_description" type="id" />
+</resources>

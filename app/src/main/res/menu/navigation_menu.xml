@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_vocabulary"
+        android:title="Từ vựng"
+        android:icon="@drawable/ic_vocabulary" />
+    <item
+        android:id="@+id/nav_quiz"
+        android:title="Bài kiểm tra"
+        android:icon="@drawable/ic_quiz" />
+    <item
+        android:id="@+id/nav_statistics"
+        android:title="Thống kê"
+        android:icon="@drawable/ic_statistics" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Lịch học"
+        android:icon="@drawable/ic_calendar" />
+</menu>

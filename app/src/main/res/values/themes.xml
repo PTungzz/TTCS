@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.VocubularyBuilder" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here if needed -->
+    </style>
+
+    <style name="CustomDateTextStyle">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

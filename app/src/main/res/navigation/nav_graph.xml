@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/vocabularyFragment">
+
+    <fragment
+        android:id="@+id/vocabularyFragment"
+        android:name="com.map.phamthanhtung.vocubularybuilder.ui.theme.vocabulary.VocabularyFragment"
+        android:label="Từ vựng">
+        <action
+            android:id="@+id/action_vocabularyFragment_to_addWordFragment"
+            app:destination="@id/addWordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addWordFragment"
+        android:name="com.map.phamthanhtung.vocabularybuilder.ui.vocabulary.AddWordFragment"
+        android:label="Thêm từ mới" />
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.map.phamthanhtung.vocabularybuilder.ui.quiz.QuizFragment"
+        android:label="Bài kiểm tra" />
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.map.phamthanhtung.vocabularybuilder.ui.statistics.StatisticsFragment"
+        android:label="Thống kê"/>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.map.phamthanhtung.vocabularybuilder.ui.calendar.CalendarFragment"
+        android:label="Lịch học" />
+</navigation>
